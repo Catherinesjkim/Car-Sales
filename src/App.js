@@ -1,4 +1,9 @@
+// Implement Redux as the state management system in this app
 import React from 'react';
+import { createStore } from 'redux';
+import { Provider } from 'react-redux';
+
+import { headerReducer } from './reducers/headerReducer';
 
 import Header from './components/Header';
 import AddedFeatures from './components/AddedFeatures';
